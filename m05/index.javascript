@@ -7,11 +7,9 @@
   <body>
     <section id="page2">
       <h1>Module 5</h1>
+      
       <img src="images/teacher.png" id="teacher2" alt="" />
-      <section id="blackboard">
-        let number = prompt("Please enter a number 0-10")
-        console.log("You entered " + number)
-      </section>
+      <section id="blackboard"></section>
     </section>
     <script src="js/example.js"></script>
   </body>
