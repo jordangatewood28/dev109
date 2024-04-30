@@ -7,7 +7,8 @@
   <body>
     <section id="page2">
       <h1>Module 5</h1>
-      
+      let x = prompt("Enter a number from 0-10:")
+      document.write("You entered " + x)
       <img src="images/teacher.png" id="teacher2" alt="" />
       <section id="blackboard"></section>
     </section>
