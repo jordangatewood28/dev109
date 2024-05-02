@@ -1,5 +1,5 @@
-var table = number
-var operator = 'addition'; // Type of calculation
+var table = prompt("Please enter a number 0-10:");             // Unit of table
+var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '';              // Message
 
