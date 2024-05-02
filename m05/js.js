@@ -1,3 +1,4 @@
+var table = number
 var operator = 'addition'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '';              // Message
