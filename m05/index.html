@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width">
     <title>Module 5</title>
     <link rel="stylesheet" href="css/c04.css" />
-    <style type="text/css">
   </head>
-    <body>
+  <body>
     <section id="page2">
-      <header><h1>Module 5</h1></header>
-      <script src="js.js">
-        var x = prompt("Please enter a number between 0 and 10:")
+      <h1>Module 5</h1>
+      <script>
+        var table = prompt("Please enter a number between 0 and 10:")
+        if (table < 0) {
+          document.write("Invalid input. Number cannot be less than 0.")
+        }
+        if (table > 10) {
+          document.write("Invalid input. Number cannot be greater than 10.")
+        }
+        else {
+          document.write("You entered " + table)
+        }
       </script>
-      <img src="teacher.png" alt="Insert Teacher Here" />
+      <img src="teacher.png" id="teacher2" alt="insert teacher here" />
       <section id="blackboard"></section>
     </section>
   </body>
