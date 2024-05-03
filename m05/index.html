@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -18,16 +19,16 @@
       <h1>Module 5</h1>
       <img src="teacher.png" id="teacher2" alt="insert teacher here" />
       <section id="blackboard"></section>
-      <script>
+      <script> /*I am unsure whether to put this in a seperate file to get it to work.*/
         var i = 1;
-        var table = prompt("Please enter a number between 0 and 10:");
-        if (table < 0) {
+        var table = prompt("Please enter a number between 0 and 10:"); /*This prompts the user for a number between 0 and 10*/
+        if (table < 0) { /*This verifies that the inputted number is not less than 0*/
           alert("Invalid input. Number cannot be less than 0. Refresh to try again.");
         }
-        if (table > 10) {
+        if (table > 10) { /*This verifies that the inputted number is not greater than 10*/
           alert("Invalid input. Number cannot be greater than 10. Refresh to try again.");
         }
-        else {
+        else { //*This isn't working for some reason. Still have not figured it out, see above comment by the opening script statement*//
           while (i < 11) {
             msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
             i++;
