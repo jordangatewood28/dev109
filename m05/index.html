@@ -10,6 +10,7 @@
     <section id="page2">
       <h1>Module 5</h1>
       <script>
+        var i = 1
         var table = prompt("Please enter a number between 0 and 10:")
         if (table < 0) {
           document.write("Invalid input. Number cannot be less than 0.")
@@ -18,8 +19,13 @@
           document.write("Invalid input. Number cannot be greater than 10.")
         }
         else {
-          document.write("You entered " + table)
+          while (i < 11) {
+            msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
+            i++;
+          }
         }
+        var el = document.getElementById('blackboard');
+        el.innerHTML = msg;
       </script>
       <img src="teacher.png" id="teacher2" alt="insert teacher here" />
       <section id="blackboard"></section>
