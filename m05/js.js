@@ -16,7 +16,6 @@ else {
     i++;
   }
 }
-
 //Makes message and prints it
 var el = document.getElementById('blackboard');
 el.innerHTML = msg;
