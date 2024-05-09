@@ -8,7 +8,7 @@ h1 {font-family: CodeNewRomanRegular;
 }
 body {
   background-color:green;
-  background-image:url("https://img.freepik.com/free-photo/track-wheels_1112-1344.jpg?t=st=1714003915~exp=1714007515~hmac=f04d180ac75b216aa5105d5d76eb497506ab6c7c0145d48b36290353186e50f2&w=1380");
+  background-image:url("images/pic2.jpg");
   background-size:cover;
   background-repeat:repeat-y;
   width: 100%;
@@ -36,7 +36,7 @@ li {
   padding: 0.5em 0;}
 #feature {
   background-color:#8CC63E;
-  background-image:url("https://img.freepik.com/free-vector/hand-drawn-flat-design-digital-camo-pattern_23-2149283162.jpg?t=st=1714004040~exp=1714007640~hmac=d69c079e97e304bf396e280b5944991d0c2bc901a2cdcbeed6220b004442bf4e&w=826");
+  background-image:url("images/pic3.jpg");
   background-size:cover;
   background-position:right;
   background-repeat:no-repeat;}
