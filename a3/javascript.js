@@ -60,7 +60,7 @@ document.getElementById("downRight").innerHTML = rLine;
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var lLine ="";
-for (i=0;i<pHeight;i++){
+for (i=0;i<pHeight;++i){
 lLine +="<p>";
 for(j=0;j<=i;j++){
 
@@ -79,7 +79,7 @@ document.getElementById("upLeft").innerHTML = lLine;
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var lLine ="";
-for (i=pHeight;i > 0;i--){
+for (i=pHeight;i > 0;--i){
 lLine +="<p>";
 for(j=0;j<=i;j++){
 
