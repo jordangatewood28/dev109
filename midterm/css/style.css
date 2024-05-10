@@ -8,7 +8,7 @@ h1 {font-family: CodeNewRomanRegular;
 }
 body {
   background-color:green;
-  background-image:url("images/pic2.jpg");
+  background-image:url("midterm/images/pic2.jpg");
   background-size:cover;
   background-repeat:repeat-y;
   width: 100%;
@@ -36,7 +36,7 @@ li {
   padding: 0.5em 0;}
 #feature {
   background-color:#8CC63E;
-  background-image:url("images/pic3.jpg");
+  background-image:url("midterm/images/pic3.jpg");
   background-size:cover;
   background-position:right;
   background-repeat:no-repeat;}
