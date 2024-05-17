@@ -14,7 +14,7 @@ var quayHotel = new Hotel('Quay', 40, 25);
 var parkHotel = new Hotel('Park', 120, 77);
 var sunsetHotel = new Hotel('Sunset', 86, 10);
 
-// Update HTML the page
+// Update HTML
 var details1 = quayHotel.name + ' rooms: ';
     details1 += quayHotel.checkAvailability();
 var elHotel1 = document.getElementById('hotel1');
