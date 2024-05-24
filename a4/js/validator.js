@@ -1,4 +1,4 @@
-function isValid() {
+function validateForm() {
     if (firstName() //&&
        // lastName()
     )
