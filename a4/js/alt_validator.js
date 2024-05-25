@@ -116,7 +116,7 @@ function phone(){
 
     //5) Return status
     return (validPhone);
-}
+};
 
 Password.addEventListener('blur', userPassword, false);
 function password(){
@@ -141,4 +141,4 @@ function password(){
 
     //5) Return status
     return (validPassword);
-}
+};
