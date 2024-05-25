@@ -1,10 +1,5 @@
 function validateForm() {
     if (firstName();
-    lastName();
-    email();
-    phone();
-    username();
-    password();
     )
     return true;
     else
