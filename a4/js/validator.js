@@ -1,6 +1,8 @@
 function validateForm() {
     if (firstName();
-        lastName();
+    lastName();
+    email();
+    phone():
     )
     return true;
     else
@@ -26,7 +28,7 @@ function firstName(){
             FNerrorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("First name invalid — bad characters")
         } else {
-                validFirstname = true;
+                var validFirstname = true;
                 console.log("First name valid")
         };
 
@@ -54,7 +56,7 @@ function lastName(){
             LNerrorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("Last name invalid — bad characters")
         } else {
-                validLastname = true;
+                var validLastname = true;
                 console.log("Last name valid")
         };
 
@@ -65,7 +67,7 @@ function lastName(){
     return (validLastname);
 };
 
-function Email(){
+function email(){
     var validEmail=false
     
     var userEmail = document.getElementById("email").value;
@@ -74,7 +76,7 @@ function Email(){
     var atpos = userEmail.indexOf("@");
     var dotpos = userEmail.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-        EmailerrorMessage = "<p>An email is required</p>"
+        EmailerrorMessage = "<p>You can only have one @ and period for your email</p>"
         console.log("Email invalid.")
     }
     // send error message. For example:  errorMessages = "<p>Invalid email</p>";
@@ -84,3 +86,25 @@ function Email(){
     }
 
     document.getElementById("email").innerHTML = EmailerrorMessages;
+
+    return (validEmail);
+};
+
+function phone(){
+    var validPhone = false
+
+    var userPhone = document.getElementByID("phone").value;
+    var PhoneerrorMessage = "";
+
+    if (isNaN(phone) || phone.length > 15 || phone===null || phone ===""){
+        PhoneerrorMessage = "<p>Invalid phone number.</p>"
+        console.log("Phone invalid")
+    }else{
+        validPhone = true
+        console.log("Phone valid")
+    };
+
+    document.getElementById("phone").innerHTML = PhoneerrorMessage;
+
+    return (validPhone);
+}
