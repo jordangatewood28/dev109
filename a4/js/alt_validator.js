@@ -6,7 +6,7 @@ function validateForm() {
         document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
         event.preventDefault();
         return false;
-}
+};
 
 FirstName.addEventListener('blur', firstName, false);
 function firstName(){
