@@ -69,6 +69,7 @@ function lastName(){
     return (validLastname);
 };
 
+Email.addEventListener('blur', userEmail, false);
 function email(){
     //1) Create variable
     var validEmail=false;
@@ -96,6 +97,7 @@ function email(){
     return (validEmail);
 };
 
+Phone.addEventListener('blur', userPhone, false);
 function phone(){
     //1) Create variable
     var validPhone = false;
@@ -121,6 +123,7 @@ function phone(){
     return (validPhone);
 }
 
+Password.addEventListener('blur', userPassword, false);
 function password(){
     //1) Create variable
     var validPassword = false;
