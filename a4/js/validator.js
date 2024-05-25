@@ -40,7 +40,7 @@ function firstName(){
 
 function lastName(){
     //1) Create variable
-    var validLasstname=false;
+    var validLastname=false;
 
     //2) read value from HTML
     var lastname = document.getElementById("LastName").value;
@@ -54,7 +54,7 @@ function lastName(){
             errorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
             console.log("Last name invalid — bad characters")
         } else {
-                validFirstname = true;
+                validLastname = true;
                 console.log("Last name valid")
         };
 
