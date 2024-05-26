@@ -73,7 +73,7 @@ function email(){
     var validEmail=false;
 
     //2) Read HTML value
-    var userEmail = document.getElementById("email").value;
+    var userEmail = document.getElementById("Email").value;
     var EmailerrorMessage = "";
 
     //3)Do validation
@@ -101,7 +101,7 @@ function phone(){
     var validPhone = false;
 
     //2) Read HTML value
-    var userPhone = document.getElementByID("phone").value;
+    var userPhone = document.getElementByID("Phone").value;
     var PhoneerrorMessage = "";
 
     //3)Do validation
@@ -127,7 +127,7 @@ function password(){
     var validPassword = false;
 
     //2) Read HTML value
-    var userPassword = document.getElementByID("password").value;
+    var userPassword = document.getElementByID("Password").value;
     var Passworderrormessage = "";
 
     //3)Do validation
