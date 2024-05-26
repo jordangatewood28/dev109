@@ -82,8 +82,7 @@ function email(){
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
         EmailerrorMessage = "<p>You can only have one @ and period for your email</p>";
         console.log("Email invalid.");
-    }
-    else{
+    } else{
         validEmail = true;
         console.log("Email valid");
     }
@@ -109,7 +108,7 @@ function phone(){
         PhoneerrorMessage = "<p>Invalid phone number.</p>";
         console.log("Phone invalid");
         validPhone = false;
-    }else{
+    } else{
         validPhone = true;
         console.log("Phone valid");
     };
@@ -134,7 +133,7 @@ function password(){
     if (isNaN(password) || password.length > 7 || password === ""){
         Passworderrormessage = "<p>Invalid password. Must be no more than 7 characters.</p>";
         console.log("Password invalid");
-    }else{
+    } else{
         validPassword = true;
         console.log("Password valid");
     }
@@ -159,7 +158,7 @@ function username(){
     if (isNaN(username) || username.length > 12 || username == ""){
         Usernameerror = "<p>Invalid username. It is required and must be no more than 12 characters.</p>";
         console.log("Username invalid");
-    }else{
+    } else{
         validUsername = true
         console.log("Username valid");
     }
