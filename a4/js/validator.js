@@ -23,7 +23,7 @@ function firstName(){
 
     //3) Do validation
     if (firstname==="null" || firstname==="" || firstname.length > 20 ) {
-        errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
+        errorMessages += "<p>The first name is required and cannot be greater than 50 characters</p>";
         console.log("First name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
             errorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
