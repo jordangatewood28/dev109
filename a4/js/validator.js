@@ -104,7 +104,7 @@ function phone(){
     var PhoneerrorMessage = "";
 
     //3)Do validation
-    if (isNaN(phone) || phone.length > 15 || phone===null || phone === ""){
+    if (isNaN(userPhone) || userPhone.length > 15 || userPhone===null || userPhone === ""){
         PhoneerrorMessage = "<p>Invalid phone number.</p>";
         console.log("Phone invalid");
         validPhone = false;
@@ -130,7 +130,7 @@ function password(){
     var Passworderrormessage = "";
 
     //3)Do validation
-    if (isNaN(password) || password.length > 7 || password === ""){
+    if (isNaN(userPassword) || userPassword.length > 7 || userPassword === ""){
         Passworderrormessage = "<p>Invalid password. Must be no more than 7 characters.</p>";
         console.log("Password invalid");
     } else{
@@ -155,7 +155,7 @@ function username(){
     var Usernameerror = ""
 
     //3) Do validation
-    if (isNaN(username) || username.length > 12 || username == ""){
+    if (isNaN(Username) || Username.length > 12 || Username == ""){
         Usernameerror = "<p>Invalid username. It is required and must be no more than 12 characters.</p>";
         console.log("Username invalid");
     } else{
