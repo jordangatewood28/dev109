@@ -145,3 +145,28 @@ function password(){
     //5) Return status
     return (validPassword);
 };
+
+Username.addEventListener('blur', Username, false);
+function username(){
+    //1) Create variable
+    var validUsername = false;
+
+    //2)Read HTML value
+    var Username = document.getElementByID("Username").value;
+    var Usernameerror = ""
+
+    //3) Do validation
+    if (isNaN(username) || username.length > 12 || username == ""){
+        Usernameerror = "<p>Invalid username. It is required and must be no more than 12 characters.</p>";
+        console.log("Username invalid");
+    }else{
+        validUsername = true
+        console.log("Username valid");
+    }
+
+    //4) Send error message to HTML
+    document.getElementByID("username").innerHTML = Usernameerror;
+
+    //5) Return status
+    return (validUsername);
+}
