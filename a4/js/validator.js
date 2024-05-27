@@ -75,7 +75,7 @@ function email(){
 
     //2) Read HTML value
     var userEmail = document.getElementById("Email").value;
-    var EmailerrorMessage = "";
+    var Emailerror = "";
 
     //3)Do validation
     var atpos = userEmail.indexOf("@");
@@ -89,7 +89,7 @@ function email(){
     }
 
     //4) Send error message to HTML
-    document.getElementById("email").innerHTML = EmailerrorMessages;
+    document.getElementById("email").innerHTML = Emailerror;
 
     //5) Return status
     return (validEmail);
@@ -102,7 +102,7 @@ function phone(){
 
     //2) Read HTML value
     var userPhone = document.getElementByID("Phone").value;
-    var PhoneerrorMessage = "";
+    var Phoneerror = "";
 
     //3)Do validation
     if (isNaN(userPhone) || userPhone.length > 15 || userPhone===null || userPhone === ""){
@@ -115,7 +115,7 @@ function phone(){
     };
 
     //4) Send error message to HTML
-    document.getElementById("phone").innerHTML = PhoneerrorMessage;
+    document.getElementById("phone").innerHTML = Phoneerror;
 
     //5) Return status
     return (validPhone);
@@ -128,7 +128,7 @@ function password(){
 
     //2) Read HTML value
     var userPassword = document.getElementByID("Password").value;
-    var Passworderrormessage = "";
+    var Passworderror = "";
 
     //3)Do validation
     if (isNaN(userPassword) || userPassword.length > 7 || userPassword === ""){
@@ -140,7 +140,7 @@ function password(){
     }
 
     //4) Send error message to HTML
-    document.getElementByID("password").innerHTML = PassworderrorMessage;
+    document.getElementByID("password").innerHTML = Passworderror;
 
     //5) Return status
     return (validPassword);
@@ -169,4 +169,4 @@ function username(){
 
     //5) Return status
     return (validUsername);
-}
+};
