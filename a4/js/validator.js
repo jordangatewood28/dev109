@@ -24,7 +24,7 @@ function firstName(){
 
     //3) Do validation
     if (firstname==="null" || firstname==="" || firstname.length > 20 ) {
-        errorMessages += "<p>The first name is required and cannot be greater than 50 characters</p>";
+        errorMessages += "<p>The first name is required and cannot be greater than 20 characters</p>";
         console.log("First name invalid — length")
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
             errorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
@@ -51,7 +51,7 @@ function lastName(){
 
     //3) Do validation
     if (lastname==="null" || lastname==="" || lastname.length > 50 ) {
-        LNerrorMessages += "<p>The last name is required and cannot be greater than 20 characters</p>";
+        LNerrorMessages += "<p>The last name is required and cannot be greater than 50 characters</p>";
         console.log("Last name invalid — length");
         } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
             LNerrorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
@@ -105,8 +105,8 @@ function phone(){
     var Phoneerror = "";
 
     //3)Do validation
-    if (isNaN(userPhone) || userPhone.length > 15 || userPhone===null || userPhone === ""){
-        PhoneerrorMessage = "<p>Invalid phone number.</p>";
+    if (userPhone.length > 15 || userPhone===null || userPhone===""){
+        PhoneerrorMessage = "<p>A phone number is required and cannot be more than 15 characters.</p>";
         console.log("Phone invalid");
         validPhone = false;
     } else{
@@ -156,8 +156,8 @@ function username(){
     var Usernameerror = ""
 
     //3) Do validation
-    if (isNaN(Username) || Username.length > 12 || Username == ""){
-        Usernameerror = "<p>Invalid username. It is required and must be no more than 12 characters.</p>";
+    if (Username==="null" || Username.length > 12 || Username === ""){
+        Usernameerror = "<p>A username is required and must be no more than 12 characters.</p>";
         console.log("Username invalid");
     } else{
         validUsername = true
