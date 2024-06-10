@@ -1,10 +1,6 @@
 function isValid() {
     if (firstName(),
-        lastName(),
         email(),
-        phone(),
-        password(),
-        username()
     )
     return true;
     else
@@ -39,33 +35,6 @@ function firstName(){
 
     //5) return status of each field
     return (validFirstname);
-};
-
-function lastName(){
-    //1) Create variable
-    var validLastname=false;
-
-    //2) read value from HTML
-    var lastname = document.getElementById("LastName").value;
-    var LNerrorMessages = "";
-
-    //3) Do validation
-    if (lastname==="null" || lastname==="" || lastname.length > 50 ) {
-        LNerrorMessages += "<p>The last name is required and cannot be greater than 50 characters</p>";
-        console.log("Last name invalid — length");
-        } else if (firstname.match("^[a-zA-Z ,.'-]+$")===null) {
-            LNerrorMessages += "<p>Invalid caracter in last name (accepts only A-Z, a-z, and ,.'-)</p>";
-            console.log("Last name invalid — bad characters");
-        } else {
-                var validLastname = true;
-                console.log("Last name valid");
-        };
-
-    //4) Send error message to HTML
-    document.getElementById("lname").innerHTML = LNerrorMessages;
-
-    //5) return status of each field
-    return (validLastname);
 };
 
 Email.addEventListener('blur', userEmail, false);
@@ -119,54 +88,4 @@ function phone(){
 
     //5) Return status
     return (validPhone);
-};
-
-Password.addEventListener('blur', userPassword, false);
-function password(){
-    //1) Create variable
-    var validPassword = false;
-
-    //2) Read HTML value
-    var userPassword = document.getElementByID("Password").value;
-    var Passworderror = "";
-
-    //3)Do validation
-    if (isNaN(userPassword) || userPassword.length > 7 || userPassword === ""){
-        Passworderrormessage = "<p>Invalid password. Must be no more than 7 characters.</p>";
-        console.log("Password invalid");
-    } else{
-        validPassword = true;
-        console.log("Password valid");
-    }
-
-    //4) Send error message to HTML
-    document.getElementByID("password").innerHTML = Passworderror;
-
-    //5) Return status
-    return (validPassword);
-};
-
-Username.addEventListener('blur', Username, false);
-function username(){
-    //1) Create variable
-    var validUsername = false;
-
-    //2)Read HTML value
-    var Username = document.getElementByID("Username").value;
-    var Usernameerror = ""
-
-    //3) Do validation
-    if (Username==="null" || Username.length > 12 || Username === ""){
-        Usernameerror = "<p>A username is required and must be no more than 12 characters.</p>";
-        console.log("Username invalid");
-    } else{
-        validUsername = true
-        console.log("Username valid");
-    }
-
-    //4) Send error message to HTML
-    document.getElementByID("username").innerHTML = Usernameerror;
-
-    //5) Return status
-    return (validUsername);
 };
