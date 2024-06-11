@@ -30,13 +30,6 @@ function firstName(){
                 console.log("First name valid")
         };
 
-    //4) Send error message to HTML
-    document.getElementById("fname").innerHTML = errorMessages;
-
-    //5) return status of each field
-    return (validFirstname);
-};
-
 Email.addEventListener('blur', userEmail, false);
 function email(){
     //1) Create variable
