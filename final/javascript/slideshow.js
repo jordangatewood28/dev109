@@ -1,4 +1,4 @@
-var myImages =[];
+var myImages =["images/pic3.jpg"];
 
 
 var captionImages =["HULL DOWN: ","TURRET DOWN:","SMOKE SCREEN:"];
