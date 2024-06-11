@@ -1,7 +1,7 @@
 var myImages =["images/hulldown.jpg", "images/turretdown.jpg", "images/smokescreen.jpg"];
 
 
-var captionImages =["HULL DOWN: This is a standard tactic for tanks to attempt to only expose the turret to represent the smallest target possible while being able to engage targets.","TURRET DOWN: This is done to allow the crew to observe the battlefield without exposing the tank at to maintain stealth.","SMOKE SCREEN: "];
+var captionImages =["HULL DOWN: This is a standard tactic for tanks to attempt to only expose the turret to represent the smallest target possible while being able to engage targets.","TURRET DOWN: This is done to allow the crew to observe the battlefield without exposing the tank to maintain stealth.","SMOKE SCREEN: An emergency measure for military vehicles. Used to conceal themselves and escape hairy situations."];
 
  var index=0; 
 
