@@ -1,7 +1,7 @@
-var myImages =["images/pic3.jpg"];
+var myImages =["images/hulldown.jpg"];
 
 
-var captionImages =["HULL DOWN: ","TURRET DOWN:","SMOKE SCREEN:"];
+var captionImages =["HULL DOWN: This is a standard tactic for tanks to attempt to only expose the turret to represent the smallest target possible while being able to engage targets.","TURRET DOWN: ","SMOKE SCREEN: "];
 
  var index=0; 
 
