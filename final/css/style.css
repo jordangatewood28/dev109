@@ -6,6 +6,8 @@ h1 {font-family: CodeNewRomanRegular;
   color: Black;
   text-align: center;
 }
+p{font-color: red;
+ }
 body {
   background-color:white;
   background-image:url("images/picture2.jpg");
