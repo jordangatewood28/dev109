@@ -3,11 +3,9 @@ h1 {font-family: CodeNewRomanRegular;
    }
 * {
   font-family: Arial, Verdana, sans-serif;
-  color: Black;
+  color: grey;
   text-align: center;
 }
-p{font-color: red;
- }
 body {
   background-color:white;
   background-image:url("images/picture2.jpg");
