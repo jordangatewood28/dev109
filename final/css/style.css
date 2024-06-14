@@ -8,7 +8,7 @@ h1 {font-family: CodeNewRomanRegular;
 }
 body {
   background-color:white;
-  background-image:url("images/picture2.jpg");
+  background-image:url("images/picture2.jpg"), url("https://giphy.com/stickers/ghost-jet-gc3c3gj-BnY41n55gbyUw");
   background-size:cover;
   background-repeat:repeat-y;
   width: 100%;
