@@ -13,6 +13,9 @@ body {
   background-repeat:repeat-y;
   width: 100%;
   margin: 0 auto;}
+p {
+    background-color:tan
+}
 #content {
   overflow: auto;}
 #nav, #feature, #footer {
