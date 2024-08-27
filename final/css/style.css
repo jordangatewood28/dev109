@@ -17,17 +17,6 @@ body {
   overflow: auto;}
 #nav, #feature, #footer {
   margin: 1%;}
-.column1, .column2, .column3 {
-  width: 31.3%;
-  float: left;
-  margin: 1%;}
-.column1 {
-  background-color:tan;}
-.column2 {
-  background-color:green;}
-.column3 {
-  background-color:red;
-  margin-right: 0%;}
 li {
   display: inline;
   padding: 0.5em;}
