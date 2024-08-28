@@ -12,9 +12,7 @@ body {
   background-size:cover;
   background-repeat:repeat-y;
   width: 100%;
-  margin: 0 auto;}
-p {
-    background-color:tan;
+  margin: 0 auto;
 }
 #content {
   overflow: auto;}
